@@ -1,0 +1,394 @@
+:root{
+    font-size: 62.5%;
+}
+
+html,
+body,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 3rem;
+}
+
+
+
+nav{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 5fr 1fr;
+    padding: 1rem 0 1rem 0;
+    font-size: 3rem;
+    background-color: gray;
+}
+
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.logo{
+    width: 100vw;
+}
+
+
+
+p{
+    margin: 1rem 0 0 0;
+    font-size: 1.8rem;
+    margin: 1rem 2rem 0 2rem;
+}
+
+
+
+footer{
+    margin: 1.5rem 0 1rem 0;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+   
+}
+
+footer a{
+    color: black;
+}
+
+.site-symbol a{
+    color: black;
+}
+
+.site-symbol a:visited
+{
+    color: black;
+}
+
+.site-symbol a:hover
+{
+    color: rgb(43, 43, 43);
+}
+
+.menu{
+    display: none;
+    color: black;
+    margin: 1rem;
+}
+
+.nav-bar{
+    display: none;
+}
+
+.around-div:hover{
+    padding: 1.5rem;
+    .nav-bar{
+        display: block;
+        position: fixed;
+        
+        right: 50px;
+        font-size: 2rem;
+        color: black;
+    }
+}
+
+
+
+.nav-bar:hover{
+    display: block;
+    color: black;
+    text-decoration: none;
+    z-index: 10;
+}
+
+
+.nav-game{
+    display: none;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    
+    
+}
+
+.item{
+    display: grid;
+    place-items: center;
+}
+
+.grid img{
+    width: 70vw;
+    margin: 1rem 0 0 0;
+}
+
+.grid p{
+    width: 70vw;
+    margin: 1rem 0 0 0;
+}
+
+.music{
+    
+    width: 80vw;
+    font-size: 2rem;
+}
+
+.overitem{
+        
+    padding: 1rem;
+    
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+.info{
+    width: 80vw;
+}
+
+.grid button{
+    background-color: green;
+    border-radius: 12px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.grid textarea{
+    
+    border-radius: 12px;
+    padding: 3rem 2rem 3rem 2rem;
+    margin: 1rem 0 0 0;
+}
+
+.grid input{
+    
+    border-radius: 12px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 0 0 0;
+}
+
+.text{
+    font-size: 3rem;
+    margin: 2rem 0 0 0;
+}
+
+@media (min-width:768px)
+{
+    footer{
+        
+        letter-spacing: 3rem;
+    }
+
+    nav{
+        font-size: 4rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    
+
+    footer{
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(5, 1fr);
+        
+    }
+
+    .grid{
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        margin: 0 0 2rem 0;
+        
+    }
+    
+    .item{
+        display: grid;
+        place-items: center;
+    }
+    
+    .grid img{
+        width: 30vw;
+        margin: 1rem 0 0 0;
+        border-radius: 12px;
+    }
+    
+    .grid p{
+        width: 30vw;
+        margin: 1rem 0 0 0;
+        border: 1px solid black;
+        padding: 1rem;
+        border-radius: 12px;
+    }
+}
+
+    
+@media (min-width:1024px)
+{
+    .game{
+        margin: 0 2rem 0 2rem;
+    }
+
+    .game img{
+        width: 25vw;
+        
+    }
+
+    .games{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 3rem 0 0 0;
+    }
+
+    .over-logo{
+        display: grid;
+        place-items: center;
+    }
+
+    .game{
+    
+        margin: 0 1rem 0 1rem;
+
+    }
+
+    .game button{
+        width: 8vw;
+        padding: 1rem 0 1rem 0;
+        margin: 1rem 0 1.5rem 0;
+        background-color: green;
+        border-radius: 12px;
+        border: 0px;
+    }
+
+    footer{
+        margin: 2rem 0 1rem 0;
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(5, 1fr);
+       
+    }
+
+    .tarios{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .kill-kawaii{
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+
+    .atomic-sky{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    footer{
+        
+        letter-spacing: 3rem;
+    }
+
+    nav{
+        font-size: 4rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    .game a{
+        font-size: 4rem;
+    }
+
+    footer{
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(5, 1fr);
+        
+    }
+
+    .logo{
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    .grid{
+        display: grid;
+        place-items: center;
+        
+        grid-template-rows: auto;
+        gap: 1rem;
+        
+    }
+    
+    .overitem{
+        
+        padding: 1rem;
+        
+        border: 1px solid black;
+        border-radius: 12px;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        
+    }
+
+    .item{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .grid img{
+        width: 30vw;
+    }
+
+    .music{
+        border: 0px solid black;
+        width: 30vw;
+        font-size: 2rem;
+    }
+
+    .grid button{
+        background-color: green;
+        border-radius: 12px;
+        padding: 1rem 2rem 1rem 2rem;
+        margin: 1rem 0 2rem 0;
+        border: 0px;
+    }
+
+    .grid button:hover{
+        cursor: pointer;
+    }
+    
+    
+    
+    p{
+        font-size: 3rem;
+        margin: 2rem 0 0 0;
+    }
+
+}
+
+@media (min-width:2056px)
+{
+    
+}
