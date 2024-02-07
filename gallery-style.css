@@ -174,9 +174,51 @@ footer a{
 }
 
 .music{
-    border: 1px solid black;
+    
     width: 80vw;
     font-size: 2rem;
+}
+
+.overitem{
+        
+    padding: 1rem;
+    
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+.info{
+    width: 80vw;
+}
+
+.grid button{
+    background-color: green;
+    border-radius: 12px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.grid textarea{
+    
+    border-radius: 12px;
+    padding: 3rem 2rem 3rem 2rem;
+    margin: 1rem 0 0 0;
+}
+
+.grid input{
+    
+    border-radius: 12px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 0 0 0;
+}
+
+.text{
+    font-size: 3rem;
+    margin: 2rem 0 0 0;
 }
 
 @media (min-width:768px)
@@ -341,6 +383,32 @@ footer a{
         border: 0px solid black;
         width: 30vw;
         font-size: 2rem;
+    }
+
+    .grid button{
+        background-color: green;
+        border-radius: 12px;
+        padding: 1rem 2rem 1rem 2rem;
+        margin: 1rem 0 2rem 0;
+    }
+    
+    .grid textarea{
+        
+        border-radius: 12px;
+        padding: 3rem 2rem 3rem 2rem;
+        margin: 1rem 0 0 0;
+    }
+    
+    .grid input{
+        
+        border-radius: 12px;
+        padding: 1rem 2rem 1rem 2rem;
+        margin: 1rem 0 0 0;
+    }
+    
+    .text{
+        font-size: 3rem;
+        margin: 2rem 0 0 0;
     }
 
 }

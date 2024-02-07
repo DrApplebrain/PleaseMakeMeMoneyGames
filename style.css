@@ -50,7 +50,7 @@ h1{
     
 }
 
-.ingame{
+.ing{
     display: grid;
     place-items: center;
     
@@ -66,7 +66,8 @@ h1{
 }
 
 .game img{
-    width: 90%;
+    width: 90vw;
+    
     
 }
 
@@ -141,11 +142,6 @@ footer a{
     display: none;
 }
 
-.menu:hover{
-
-
-    
-}
 
 .nav-bar:hover{
     display: block;
